@@ -1,0 +1,10 @@
+query {
+    todos {
+        id
+        task
+        user {
+            id
+            name
+        }
+    }
+}

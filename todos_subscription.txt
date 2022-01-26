@@ -1,0 +1,5 @@
+subscription MySubscription {
+  todos_by_pk(id: 5) {
+    task
+  }
+}

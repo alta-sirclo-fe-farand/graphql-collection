@@ -1,0 +1,6 @@
+query {
+    todos {
+        user_id
+        task
+    }
+}

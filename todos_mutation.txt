@@ -1,0 +1,5 @@
+mutation {
+    insert_todos(objects: [{task: "nyikat", user_id: 6}]) {
+        affected_rows
+    }
+}

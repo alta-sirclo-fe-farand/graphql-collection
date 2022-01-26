@@ -1,0 +1,6 @@
+subscription MySubscription {
+  users(order_by: {name: desc}) {
+  	id
+    name
+  }
+}

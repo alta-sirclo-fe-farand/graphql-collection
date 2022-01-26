@@ -1,0 +1,5 @@
+mutation {
+    insert_users(objects: [{name: "Cody"}]) {
+        affected_rows
+    }
+}
